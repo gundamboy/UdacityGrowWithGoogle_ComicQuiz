@@ -1,4 +1,6 @@
 <resources>
     <dimen name="question_text_margin">16dp</dimen>
     <dimen name="text_left_margin">16dp</dimen>
+    <dimen name="logo_bottom_margin">56dp</dimen>
+    <dimen name="submit_btn_margin">56dp</dimen>
 </resources>

@@ -1,11 +1,13 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/buttonBG</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
     </style>
 
     <style name="question_text">
@@ -29,8 +31,15 @@
     </style>
 
     <style name="button">
-        <item name="android:textSize">14sp</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/badabb</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_marginTop">@dimen/submit_btn_margin</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_marginBottom">@dimen/logo_bottom_margin</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 
 </resources>
