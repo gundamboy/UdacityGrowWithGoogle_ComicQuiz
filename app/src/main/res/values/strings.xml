@@ -1,0 +1,41 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Comic Quiz</string>
+
+    <string name="question_1">1. Who was the founder of Marvel Comics?</string>
+    <string name="question_1_answer_1">Stan Lee</string>
+    <string name="question_1_answer_2">Martin Goodman</string>
+    <string name="question_1_answer_3">Jack Kirby</string>
+
+    <string name="question_2">2. What does the DC in DC Comics stand for?</string>
+    <string name="question_2_answer_1">District Comics</string>
+    <string name="question_2_answer_2">Dark Horse Comics</string>
+    <string name="question_2_answer_3">Detective Comics</string>
+
+    <string name="question_3">3. What is the name of the first Robin?</string>
+    <string name="question_3_answer_1">Dick Grayson</string>
+    <string name="question_3_answer_2">Jason Todd</string>
+    <string name="question_3_answer_3">Tim Drake</string>
+
+    <string name="question_4">4. What city does The Flash call home?</string>
+    <string name="question_4_answer_1">Star City</string>
+    <string name="question_4_answer_2">Central City</string>
+    <string name="question_4_answer_3">Gotham City</string>
+
+    <string name="question_5">5. What was the name of Superman\'s dog?</string>
+    <string name="question_5_answer_1">Krypto</string>
+    <string name="question_5_answer_2">Astro</string>
+    <string name="question_5_answer_3">Superdog</string>
+
+    <string name="question_6">6. Which of the following characters are members of The X-Men?</string>
+    <string name="question_6_answer_1">Wolverine</string>
+    <string name="question_6_answer_2">Beast</string>
+    <string name="question_6_answer_3">Magneto</string>
+
+    <string name="question_7">7. What is the first name of Bruce Wayne\'s mother?</string>
+    <string name="question_7_hint_text">answer</string>
+
+    <string name="submit_btn">Submit</string>
+
+    <string name="end_message">You got <xliff:g id="score" example="2">%d</xliff:g> right answers and you got <xliff:g id="wrong" example="2">%d</xliff:g> wrong answers.</string>
+
+</resources>
