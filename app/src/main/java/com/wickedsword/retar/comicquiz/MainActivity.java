@@ -1,5 +1,6 @@
 package com.wickedsword.retar.comicquiz;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -123,8 +124,13 @@ public class MainActivity extends AppCompatActivity {
      * method for showing a toast message to the user at the end of the quiz
      */
     private void showToast() {
-        String toastMessage = getString(R.string.end_message, score, wrong_answers);
-        Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
+//        String toastMessage = getString(R.string.end_message, String.valueOf(score), String.valueOf(wrong_answers));
+//        Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
+
+        Intent sharingIntent = new Intent(MainActivity.this, SharingActivity.class);
+        sharingIntent.putExtra("SCORE", String.valueOf(score));
+        sharingIntent.putExtra("WRONG", String.valueOf(wrong_answers));
+        startActivity(sharingIntent);
 
         resetScore();
     }

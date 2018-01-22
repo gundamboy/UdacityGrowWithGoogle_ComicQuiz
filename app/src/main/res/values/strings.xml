@@ -36,6 +36,8 @@
 
     <string name="submit_btn">Submit</string>
 
-    <string name="end_message">You got <xliff:g id="score" example="2">%d</xliff:g> right answers and you got <xliff:g id="wrong" example="2">%d</xliff:g> wrong answers.</string>
-
+    <string name="end_message">Thanks for taking the quiz! You got <xliff:g example="amy" id="score">%s</xliff:g> right answers and you got <xliff:g example="amy" id="wrong">%s</xliff:g> wrong answers.</string>
+    <string name="share_with_friends">Use the button below to share your score with your friends on Twitter and see who really knows their comics!</string>
+    <string name="share">Share</string>
+    <string name="share_message">I got <xliff:g example="amy" id="sharescore">%s</xliff:g> right answers and <xliff:g example="amy" id="sharewrong">%s</xliff:g> wrong answers on the amazing Comic Quiz!</string>
 </resources>
