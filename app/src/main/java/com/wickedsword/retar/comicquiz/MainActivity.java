@@ -124,8 +124,8 @@ public class MainActivity extends AppCompatActivity {
      * method for showing a toast message to the user at the end of the quiz
      */
     private void showToast() {
-//        String toastMessage = getString(R.string.end_message, String.valueOf(score), String.valueOf(wrong_answers));
-//        Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
+        String toastMessage = getString(R.string.end_message, String.valueOf(score), String.valueOf(wrong_answers));
+        Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
 
         Intent sharingIntent = new Intent(MainActivity.this, SharingActivity.class);
         sharingIntent.putExtra("SCORE", String.valueOf(score));
