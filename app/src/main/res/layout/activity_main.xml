@@ -16,6 +16,13 @@
             android:adjustViewBounds="true"
             style="@style/logo"/>
 
+        <!-- <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/comic_quiz"
+        android:adjustViewBounds="true"
+        style="@style/logo"/> -->
+
         <TextView
             android:id="@+id/question_1"
             android:layout_width="wrap_content"
